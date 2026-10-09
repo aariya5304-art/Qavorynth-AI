@@ -1,0 +1,1150 @@
+{
+ "name": "Halden Basin",
+ "disclaimer": "Synthetic demonstration city. Roads, zones, elevations, populations and shelters are fictional and are NOT real places, official data or safety guidance.",
+ "anchor": {
+  "lat": 21.1,
+  "lng": 79.0
+ },
+ "rows": 5,
+ "cols": 6,
+ "nodes": [
+  {
+   "id": "N00",
+   "label": "A1",
+   "lat": 21.1,
+   "lng": 79.0,
+   "elevation_m": 32,
+   "zone_id": "Z01"
+  },
+  {
+   "id": "N01",
+   "label": "A2",
+   "lat": 21.1,
+   "lng": 79.006,
+   "elevation_m": 31,
+   "zone_id": "Z01"
+  },
+  {
+   "id": "N02",
+   "label": "A3",
+   "lat": 21.1,
+   "lng": 79.012,
+   "elevation_m": 30,
+   "zone_id": "Z01"
+  },
+  {
+   "id": "N03",
+   "label": "A4",
+   "lat": 21.1,
+   "lng": 79.018,
+   "elevation_m": 29,
+   "zone_id": "Z02"
+  },
+  {
+   "id": "N04",
+   "label": "A5",
+   "lat": 21.1,
+   "lng": 79.024,
+   "elevation_m": 28,
+   "zone_id": "Z02"
+  },
+  {
+   "id": "N05",
+   "label": "A6",
+   "lat": 21.1,
+   "lng": 79.03,
+   "elevation_m": 27,
+   "zone_id": "Z02"
+  },
+  {
+   "id": "N10",
+   "label": "B1",
+   "lat": 21.094,
+   "lng": 79.0,
+   "elevation_m": 24,
+   "zone_id": "Z01"
+  },
+  {
+   "id": "N11",
+   "label": "B2",
+   "lat": 21.094,
+   "lng": 79.006,
+   "elevation_m": 23,
+   "zone_id": "Z01"
+  },
+  {
+   "id": "N12",
+   "label": "B3",
+   "lat": 21.094,
+   "lng": 79.012,
+   "elevation_m": 22,
+   "zone_id": "Z01"
+  },
+  {
+   "id": "N13",
+   "label": "B4",
+   "lat": 21.094,
+   "lng": 79.018,
+   "elevation_m": 21,
+   "zone_id": "Z02"
+  },
+  {
+   "id": "N14",
+   "label": "B5",
+   "lat": 21.094,
+   "lng": 79.024,
+   "elevation_m": 19,
+   "zone_id": "Z02"
+  },
+  {
+   "id": "N15",
+   "label": "B6",
+   "lat": 21.094,
+   "lng": 79.03,
+   "elevation_m": 18,
+   "zone_id": "Z02"
+  },
+  {
+   "id": "N20",
+   "label": "C1",
+   "lat": 21.088,
+   "lng": 79.0,
+   "elevation_m": 12,
+   "zone_id": "Z03"
+  },
+  {
+   "id": "N21",
+   "label": "C2",
+   "lat": 21.088,
+   "lng": 79.006,
+   "elevation_m": 11,
+   "zone_id": "Z03"
+  },
+  {
+   "id": "N22",
+   "label": "C3",
+   "lat": 21.088,
+   "lng": 79.012,
+   "elevation_m": 10,
+   "zone_id": "Z03"
+  },
+  {
+   "id": "N23",
+   "label": "C4",
+   "lat": 21.088,
+   "lng": 79.018,
+   "elevation_m": 9,
+   "zone_id": "Z04"
+  },
+  {
+   "id": "N24",
+   "label": "C5",
+   "lat": 21.088,
+   "lng": 79.024,
+   "elevation_m": 9,
+   "zone_id": "Z04"
+  },
+  {
+   "id": "N25",
+   "label": "C6",
+   "lat": 21.088,
+   "lng": 79.03,
+   "elevation_m": 10,
+   "zone_id": "Z05"
+  },
+  {
+   "id": "N30",
+   "label": "D1",
+   "lat": 21.082,
+   "lng": 79.0,
+   "elevation_m": 5,
+   "zone_id": "Z03"
+  },
+  {
+   "id": "N31",
+   "label": "D2",
+   "lat": 21.082,
+   "lng": 79.006,
+   "elevation_m": 4,
+   "zone_id": "Z03"
+  },
+  {
+   "id": "N32",
+   "label": "D3",
+   "lat": 21.082,
+   "lng": 79.012,
+   "elevation_m": 3,
+   "zone_id": "Z03"
+  },
+  {
+   "id": "N33",
+   "label": "D4",
+   "lat": 21.082,
+   "lng": 79.018,
+   "elevation_m": 2,
+   "zone_id": "Z04"
+  },
+  {
+   "id": "N34",
+   "label": "D5",
+   "lat": 21.082,
+   "lng": 79.024,
+   "elevation_m": 3,
+   "zone_id": "Z04"
+  },
+  {
+   "id": "N35",
+   "label": "D6",
+   "lat": 21.082,
+   "lng": 79.03,
+   "elevation_m": 4,
+   "zone_id": "Z05"
+  },
+  {
+   "id": "N40",
+   "label": "E1",
+   "lat": 21.076,
+   "lng": 79.0,
+   "elevation_m": 3,
+   "zone_id": "Z06"
+  },
+  {
+   "id": "N41",
+   "label": "E2",
+   "lat": 21.076,
+   "lng": 79.006,
+   "elevation_m": 2,
+   "zone_id": "Z06"
+  },
+  {
+   "id": "N42",
+   "label": "E3",
+   "lat": 21.076,
+   "lng": 79.012,
+   "elevation_m": 1,
+   "zone_id": "Z06"
+  },
+  {
+   "id": "N43",
+   "label": "E4",
+   "lat": 21.076,
+   "lng": 79.018,
+   "elevation_m": 1,
+   "zone_id": "Z07"
+  },
+  {
+   "id": "N44",
+   "label": "E5",
+   "lat": 21.076,
+   "lng": 79.024,
+   "elevation_m": 2,
+   "zone_id": "Z07"
+  },
+  {
+   "id": "N45",
+   "label": "E6",
+   "lat": 21.076,
+   "lng": 79.03,
+   "elevation_m": 3,
+   "zone_id": "Z08"
+  }
+ ],
+ "roads": [
+  {
+   "id": "R001",
+   "name": "Street A (1-2)",
+   "a": "N00",
+   "b": "N01",
+   "distance_m": 622.4,
+   "road_class": "local",
+   "elevation_m": 31.0,
+   "raised": false,
+   "step_free": true,
+   "zone_id": "Z01"
+  },
+  {
+   "id": "R002",
+   "name": "Street A (2-3)",
+   "a": "N01",
+   "b": "N02",
+   "distance_m": 622.4,
+   "road_class": "local",
+   "elevation_m": 30.0,
+   "raised": false,
+   "step_free": false,
+   "zone_id": "Z01"
+  },
+  {
+   "id": "R003",
+   "name": "Street A (3-4)",
+   "a": "N02",
+   "b": "N03",
+   "distance_m": 622.4,
+   "road_class": "local",
+   "elevation_m": 29.0,
+   "raised": false,
+   "step_free": true,
+   "zone_id": "Z02"
+  },
+  {
+   "id": "R004",
+   "name": "Street A (4-5)",
+   "a": "N03",
+   "b": "N04",
+   "distance_m": 622.4,
+   "road_class": "local",
+   "elevation_m": 28.0,
+   "raised": false,
+   "step_free": false,
+   "zone_id": "Z02"
+  },
+  {
+   "id": "R005",
+   "name": "Street A (5-6)",
+   "a": "N04",
+   "b": "N05",
+   "distance_m": 622.4,
+   "road_class": "local",
+   "elevation_m": 27.0,
+   "raised": false,
+   "step_free": true,
+   "zone_id": "Z02"
+  },
+  {
+   "id": "R006",
+   "name": "Street B (1-2)",
+   "a": "N10",
+   "b": "N11",
+   "distance_m": 622.5,
+   "road_class": "arterial",
+   "elevation_m": 23.0,
+   "raised": false,
+   "step_free": true,
+   "zone_id": "Z01"
+  },
+  {
+   "id": "R007",
+   "name": "Street B (2-3)",
+   "a": "N11",
+   "b": "N12",
+   "distance_m": 622.5,
+   "road_class": "arterial",
+   "elevation_m": 22.0,
+   "raised": false,
+   "step_free": true,
+   "zone_id": "Z01"
+  },
+  {
+   "id": "R008",
+   "name": "Street B (3-4)",
+   "a": "N12",
+   "b": "N13",
+   "distance_m": 622.5,
+   "road_class": "arterial",
+   "elevation_m": 21.0,
+   "raised": false,
+   "step_free": true,
+   "zone_id": "Z02"
+  },
+  {
+   "id": "R009",
+   "name": "Street B (4-5)",
+   "a": "N13",
+   "b": "N14",
+   "distance_m": 622.5,
+   "road_class": "arterial",
+   "elevation_m": 19.0,
+   "raised": false,
+   "step_free": true,
+   "zone_id": "Z02"
+  },
+  {
+   "id": "R010",
+   "name": "Street B (5-6)",
+   "a": "N14",
+   "b": "N15",
+   "distance_m": 622.5,
+   "road_class": "arterial",
+   "elevation_m": 18.0,
+   "raised": false,
+   "step_free": true,
+   "zone_id": "Z02"
+  },
+  {
+   "id": "R011",
+   "name": "Street C (1-2)",
+   "a": "N20",
+   "b": "N21",
+   "distance_m": 622.5,
+   "road_class": "arterial",
+   "elevation_m": 11.0,
+   "raised": false,
+   "step_free": true,
+   "zone_id": "Z03"
+  },
+  {
+   "id": "R012",
+   "name": "Street C (2-3)",
+   "a": "N21",
+   "b": "N22",
+   "distance_m": 622.5,
+   "road_class": "arterial",
+   "elevation_m": 10.0,
+   "raised": false,
+   "step_free": true,
+   "zone_id": "Z03"
+  },
+  {
+   "id": "R013",
+   "name": "Street C (3-4)",
+   "a": "N22",
+   "b": "N23",
+   "distance_m": 622.5,
+   "road_class": "arterial",
+   "elevation_m": 9.0,
+   "raised": false,
+   "step_free": true,
+   "zone_id": "Z04"
+  },
+  {
+   "id": "R014",
+   "name": "Street C (4-5)",
+   "a": "N23",
+   "b": "N24",
+   "distance_m": 622.5,
+   "road_class": "arterial",
+   "elevation_m": 9.0,
+   "raised": false,
+   "step_free": true,
+   "zone_id": "Z04"
+  },
+  {
+   "id": "R015",
+   "name": "Street C (5-6)",
+   "a": "N24",
+   "b": "N25",
+   "distance_m": 622.5,
+   "road_class": "arterial",
+   "elevation_m": 9.0,
+   "raised": false,
+   "step_free": true,
+   "zone_id": "Z05"
+  },
+  {
+   "id": "R016",
+   "name": "Street D (1-2)",
+   "a": "N30",
+   "b": "N31",
+   "distance_m": 622.5,
+   "road_class": "local",
+   "elevation_m": 4.0,
+   "raised": false,
+   "step_free": true,
+   "zone_id": "Z03"
+  },
+  {
+   "id": "R017",
+   "name": "Street D (2-3)",
+   "a": "N31",
+   "b": "N32",
+   "distance_m": 622.5,
+   "road_class": "local",
+   "elevation_m": 3.0,
+   "raised": false,
+   "step_free": false,
+   "zone_id": "Z03"
+  },
+  {
+   "id": "R018",
+   "name": "Street D (3-4)",
+   "a": "N32",
+   "b": "N33",
+   "distance_m": 622.5,
+   "road_class": "local",
+   "elevation_m": 2.0,
+   "raised": false,
+   "step_free": true,
+   "zone_id": "Z04"
+  },
+  {
+   "id": "R019",
+   "name": "Street D (4-5)",
+   "a": "N33",
+   "b": "N34",
+   "distance_m": 622.5,
+   "road_class": "local",
+   "elevation_m": 2.0,
+   "raised": false,
+   "step_free": false,
+   "zone_id": "Z04"
+  },
+  {
+   "id": "R020",
+   "name": "Street D (5-6)",
+   "a": "N34",
+   "b": "N35",
+   "distance_m": 622.5,
+   "road_class": "local",
+   "elevation_m": 3.0,
+   "raised": false,
+   "step_free": true,
+   "zone_id": "Z05"
+  },
+  {
+   "id": "R021",
+   "name": "Street E (1-2)",
+   "a": "N40",
+   "b": "N41",
+   "distance_m": 622.5,
+   "road_class": "local",
+   "elevation_m": 2.0,
+   "raised": false,
+   "step_free": false,
+   "zone_id": "Z06"
+  },
+  {
+   "id": "R022",
+   "name": "Street E (2-3)",
+   "a": "N41",
+   "b": "N42",
+   "distance_m": 622.5,
+   "road_class": "local",
+   "elevation_m": 1.0,
+   "raised": false,
+   "step_free": false,
+   "zone_id": "Z06"
+  },
+  {
+   "id": "R023",
+   "name": "Street E (3-4)",
+   "a": "N42",
+   "b": "N43",
+   "distance_m": 622.5,
+   "road_class": "local",
+   "elevation_m": 1.0,
+   "raised": false,
+   "step_free": true,
+   "zone_id": "Z07"
+  },
+  {
+   "id": "R024",
+   "name": "Street E (4-5)",
+   "a": "N43",
+   "b": "N44",
+   "distance_m": 622.5,
+   "road_class": "local",
+   "elevation_m": 1.0,
+   "raised": false,
+   "step_free": true,
+   "zone_id": "Z07"
+  },
+  {
+   "id": "R025",
+   "name": "Street E (5-6)",
+   "a": "N44",
+   "b": "N45",
+   "distance_m": 622.5,
+   "road_class": "local",
+   "elevation_m": 2.0,
+   "raised": false,
+   "step_free": false,
+   "zone_id": "Z08"
+  },
+  {
+   "id": "R026",
+   "name": "West Causeway (1-2)",
+   "a": "N00",
+   "b": "N10",
+   "distance_m": 667.2,
+   "road_class": "arterial",
+   "elevation_m": 24.0,
+   "raised": false,
+   "step_free": true,
+   "zone_id": "Z01"
+  },
+  {
+   "id": "R027",
+   "name": "West Causeway (2-3)",
+   "a": "N10",
+   "b": "N20",
+   "distance_m": 667.2,
+   "road_class": "arterial",
+   "elevation_m": 12.0,
+   "raised": false,
+   "step_free": true,
+   "zone_id": "Z03"
+  },
+  {
+   "id": "R028",
+   "name": "West Causeway (3-4)",
+   "a": "N20",
+   "b": "N30",
+   "distance_m": 667.2,
+   "road_class": "arterial",
+   "elevation_m": 8.5,
+   "raised": true,
+   "step_free": true,
+   "zone_id": "Z03"
+  },
+  {
+   "id": "R029",
+   "name": "West Causeway (4-5)",
+   "a": "N30",
+   "b": "N40",
+   "distance_m": 667.2,
+   "road_class": "arterial",
+   "elevation_m": 8.5,
+   "raised": true,
+   "step_free": true,
+   "zone_id": "Z06"
+  },
+  {
+   "id": "R030",
+   "name": "Avenue 2 (1-2)",
+   "a": "N01",
+   "b": "N11",
+   "distance_m": 667.2,
+   "road_class": "local",
+   "elevation_m": 23.0,
+   "raised": false,
+   "step_free": true,
+   "zone_id": "Z01"
+  },
+  {
+   "id": "R031",
+   "name": "Avenue 2 (2-3)",
+   "a": "N11",
+   "b": "N21",
+   "distance_m": 667.2,
+   "road_class": "local",
+   "elevation_m": 11.0,
+   "raised": false,
+   "step_free": true,
+   "zone_id": "Z03"
+  },
+  {
+   "id": "R032",
+   "name": "Avenue 2 (3-4)",
+   "a": "N21",
+   "b": "N31",
+   "distance_m": 667.2,
+   "road_class": "local",
+   "elevation_m": 4.0,
+   "raised": false,
+   "step_free": true,
+   "zone_id": "Z03"
+  },
+  {
+   "id": "R033",
+   "name": "Avenue 2 (4-5)",
+   "a": "N31",
+   "b": "N41",
+   "distance_m": 667.2,
+   "road_class": "local",
+   "elevation_m": 2.0,
+   "raised": false,
+   "step_free": true,
+   "zone_id": "Z06"
+  },
+  {
+   "id": "R034",
+   "name": "Avenue 3 (1-2)",
+   "a": "N02",
+   "b": "N12",
+   "distance_m": 667.2,
+   "road_class": "local",
+   "elevation_m": 22.0,
+   "raised": false,
+   "step_free": true,
+   "zone_id": "Z01"
+  },
+  {
+   "id": "R035",
+   "name": "Avenue 3 (2-3)",
+   "a": "N12",
+   "b": "N22",
+   "distance_m": 667.2,
+   "road_class": "local",
+   "elevation_m": 10.0,
+   "raised": false,
+   "step_free": true,
+   "zone_id": "Z03"
+  },
+  {
+   "id": "R036",
+   "name": "Avenue 3 (3-4)",
+   "a": "N22",
+   "b": "N32",
+   "distance_m": 667.2,
+   "road_class": "local",
+   "elevation_m": 3.0,
+   "raised": false,
+   "step_free": false,
+   "zone_id": "Z03"
+  },
+  {
+   "id": "R037",
+   "name": "Avenue 3 (4-5)",
+   "a": "N32",
+   "b": "N42",
+   "distance_m": 667.2,
+   "road_class": "local",
+   "elevation_m": 1.0,
+   "raised": false,
+   "step_free": true,
+   "zone_id": "Z06"
+  },
+  {
+   "id": "R038",
+   "name": "Avenue 4 (1-2)",
+   "a": "N03",
+   "b": "N13",
+   "distance_m": 667.2,
+   "road_class": "local",
+   "elevation_m": 21.0,
+   "raised": false,
+   "step_free": true,
+   "zone_id": "Z02"
+  },
+  {
+   "id": "R039",
+   "name": "Avenue 4 (2-3)",
+   "a": "N13",
+   "b": "N23",
+   "distance_m": 667.2,
+   "road_class": "local",
+   "elevation_m": 9.0,
+   "raised": false,
+   "step_free": false,
+   "zone_id": "Z04"
+  },
+  {
+   "id": "R040",
+   "name": "Avenue 4 (3-4)",
+   "a": "N23",
+   "b": "N33",
+   "distance_m": 667.2,
+   "road_class": "local",
+   "elevation_m": 2.0,
+   "raised": false,
+   "step_free": false,
+   "zone_id": "Z04"
+  },
+  {
+   "id": "R041",
+   "name": "Avenue 4 (4-5)",
+   "a": "N33",
+   "b": "N43",
+   "distance_m": 667.2,
+   "road_class": "local",
+   "elevation_m": 1.0,
+   "raised": false,
+   "step_free": true,
+   "zone_id": "Z07"
+  },
+  {
+   "id": "R042",
+   "name": "Avenue 5 (1-2)",
+   "a": "N04",
+   "b": "N14",
+   "distance_m": 667.2,
+   "road_class": "local",
+   "elevation_m": 19.0,
+   "raised": false,
+   "step_free": true,
+   "zone_id": "Z02"
+  },
+  {
+   "id": "R043",
+   "name": "Avenue 5 (2-3)",
+   "a": "N14",
+   "b": "N24",
+   "distance_m": 667.2,
+   "road_class": "local",
+   "elevation_m": 9.0,
+   "raised": false,
+   "step_free": false,
+   "zone_id": "Z04"
+  },
+  {
+   "id": "R044",
+   "name": "Avenue 5 (3-4)",
+   "a": "N24",
+   "b": "N34",
+   "distance_m": 667.2,
+   "road_class": "local",
+   "elevation_m": 3.0,
+   "raised": false,
+   "step_free": true,
+   "zone_id": "Z04"
+  },
+  {
+   "id": "R045",
+   "name": "Avenue 5 (4-5)",
+   "a": "N34",
+   "b": "N44",
+   "distance_m": 667.2,
+   "road_class": "local",
+   "elevation_m": 2.0,
+   "raised": false,
+   "step_free": true,
+   "zone_id": "Z07"
+  },
+  {
+   "id": "R046",
+   "name": "East Embankment Rd (1-2)",
+   "a": "N05",
+   "b": "N15",
+   "distance_m": 667.2,
+   "road_class": "arterial",
+   "elevation_m": 18.0,
+   "raised": false,
+   "step_free": true,
+   "zone_id": "Z02"
+  },
+  {
+   "id": "R047",
+   "name": "East Embankment Rd (2-3)",
+   "a": "N15",
+   "b": "N25",
+   "distance_m": 667.2,
+   "road_class": "arterial",
+   "elevation_m": 10.0,
+   "raised": false,
+   "step_free": true,
+   "zone_id": "Z05"
+  },
+  {
+   "id": "R048",
+   "name": "East Embankment Rd (3-4)",
+   "a": "N25",
+   "b": "N35",
+   "distance_m": 667.2,
+   "road_class": "arterial",
+   "elevation_m": 7.0,
+   "raised": true,
+   "step_free": true,
+   "zone_id": "Z05"
+  },
+  {
+   "id": "R049",
+   "name": "East Embankment Rd (4-5)",
+   "a": "N35",
+   "b": "N45",
+   "distance_m": 667.2,
+   "road_class": "arterial",
+   "elevation_m": 7.0,
+   "raised": true,
+   "step_free": true,
+   "zone_id": "Z08"
+  }
+ ],
+ "zones": [
+  {
+   "id": "Z01",
+   "name": "North Ridge",
+   "polygon": [
+    [
+     21.1,
+     79.0
+    ],
+    [
+     21.1,
+     79.012
+    ],
+    [
+     21.094,
+     79.012
+    ],
+    [
+     21.094,
+     79.0
+    ]
+   ],
+   "population": 6200,
+   "area_km2": 0.831,
+   "mean_elevation_m": 27.0,
+   "river_proximity": 0.15,
+   "rain_factor": 0.95,
+   "anchor_node": "N01"
+  },
+  {
+   "id": "Z02",
+   "name": "Hillcrest Heights",
+   "polygon": [
+    [
+     21.1,
+     79.012
+    ],
+    [
+     21.1,
+     79.03
+    ],
+    [
+     21.094,
+     79.03
+    ],
+    [
+     21.094,
+     79.012
+    ]
+   ],
+   "population": 4100,
+   "area_km2": 1.246,
+   "mean_elevation_m": 24.25,
+   "river_proximity": 0.1,
+   "rain_factor": 0.9,
+   "anchor_node": "N03"
+  },
+  {
+   "id": "Z03",
+   "name": "Old Market",
+   "polygon": [
+    [
+     21.094,
+     79.0
+    ],
+    [
+     21.094,
+     79.012
+    ],
+    [
+     21.082,
+     79.012
+    ],
+    [
+     21.082,
+     79.0
+    ]
+   ],
+   "population": 14500,
+   "area_km2": 1.661,
+   "mean_elevation_m": 12.67,
+   "river_proximity": 0.6,
+   "rain_factor": 1.1,
+   "anchor_node": "N21"
+  },
+  {
+   "id": "Z04",
+   "name": "Civic Centre",
+   "polygon": [
+    [
+     21.094,
+     79.012
+    ],
+    [
+     21.094,
+     79.024
+    ],
+    [
+     21.082,
+     79.024
+    ],
+    [
+     21.082,
+     79.012
+    ]
+   ],
+   "population": 9800,
+   "area_km2": 1.661,
+   "mean_elevation_m": 10.89,
+   "river_proximity": 0.4,
+   "rain_factor": 1.0,
+   "anchor_node": "N23"
+  },
+  {
+   "id": "Z05",
+   "name": "Eastgate",
+   "polygon": [
+    [
+     21.094,
+     79.024
+    ],
+    [
+     21.094,
+     79.03
+    ],
+    [
+     21.082,
+     79.03
+    ],
+    [
+     21.082,
+     79.024
+    ]
+   ],
+   "population": 7400,
+   "area_km2": 0.831,
+   "mean_elevation_m": 10.5,
+   "river_proximity": 0.3,
+   "rain_factor": 1.05,
+   "anchor_node": "N24"
+  },
+  {
+   "id": "Z06",
+   "name": "Riverside Flats",
+   "polygon": [
+    [
+     21.082,
+     79.0
+    ],
+    [
+     21.082,
+     79.012
+    ],
+    [
+     21.076,
+     79.012
+    ],
+    [
+     21.076,
+     79.0
+    ]
+   ],
+   "population": 11200,
+   "area_km2": 0.831,
+   "mean_elevation_m": 3.0,
+   "river_proximity": 0.95,
+   "rain_factor": 1.0,
+   "anchor_node": "N31"
+  },
+  {
+   "id": "Z07",
+   "name": "Delta Docks",
+   "polygon": [
+    [
+     21.082,
+     79.012
+    ],
+    [
+     21.082,
+     79.024
+    ],
+    [
+     21.076,
+     79.024
+    ],
+    [
+     21.076,
+     79.012
+    ]
+   ],
+   "population": 5600,
+   "area_km2": 0.831,
+   "mean_elevation_m": 2.0,
+   "river_proximity": 1.0,
+   "rain_factor": 1.15,
+   "anchor_node": "N33"
+  },
+  {
+   "id": "Z08",
+   "name": "Eastbank",
+   "polygon": [
+    [
+     21.082,
+     79.024
+    ],
+    [
+     21.082,
+     79.03
+    ],
+    [
+     21.076,
+     79.03
+    ],
+    [
+     21.076,
+     79.024
+    ]
+   ],
+   "population": 8300,
+   "area_km2": 0.415,
+   "mean_elevation_m": 3.0,
+   "river_proximity": 0.9,
+   "rain_factor": 0.95,
+   "anchor_node": "N34"
+  }
+ ],
+ "facilities": [
+  {
+   "id": "S1",
+   "name": "North Ridge School Shelter",
+   "kind": "shelter",
+   "node_id": "N01",
+   "capacity": 400,
+   "baseline_occupancy": 60,
+   "step_free": true,
+   "elevation_m": 31.0
+  },
+  {
+   "id": "S2",
+   "name": "Hillcrest Community Hall",
+   "kind": "shelter",
+   "node_id": "N04",
+   "capacity": 250,
+   "baseline_occupancy": 40,
+   "step_free": false,
+   "elevation_m": 28.0
+  },
+  {
+   "id": "S3",
+   "name": "Civic Centre Arena",
+   "kind": "shelter",
+   "node_id": "N23",
+   "capacity": 900,
+   "baseline_occupancy": 150,
+   "step_free": true,
+   "elevation_m": 9.0
+  },
+  {
+   "id": "S4",
+   "name": "Old Market Hall",
+   "kind": "shelter",
+   "node_id": "N21",
+   "capacity": 300,
+   "baseline_occupancy": 70,
+   "step_free": true,
+   "elevation_m": 11.0
+  },
+  {
+   "id": "S5",
+   "name": "Eastgate Sports Hall",
+   "kind": "shelter",
+   "node_id": "N15",
+   "capacity": 350,
+   "baseline_occupancy": 30,
+   "step_free": true,
+   "elevation_m": 18.0
+  },
+  {
+   "id": "S6",
+   "name": "Riverside Parish Hall",
+   "kind": "shelter",
+   "node_id": "N40",
+   "capacity": 120,
+   "baseline_occupancy": 20,
+   "step_free": false,
+   "elevation_m": 3.0
+  },
+  {
+   "id": "H1",
+   "name": "Halden General Hospital (demo)",
+   "kind": "hospital",
+   "node_id": "N12",
+   "capacity": 220,
+   "baseline_occupancy": 140,
+   "step_free": true,
+   "elevation_m": 22.0
+  },
+  {
+   "id": "H2",
+   "name": "Eastbank Clinic (demo)",
+   "kind": "hospital",
+   "node_id": "N35",
+   "capacity": 60,
+   "baseline_occupancy": 35,
+   "step_free": true,
+   "elevation_m": 4.0
+  }
+ ]
+}

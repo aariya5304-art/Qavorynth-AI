@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+
+html, body, #root { height: 100%; }
+body {
+  margin: 0;
+  background-color: #070c18;
+  background-image:
+    linear-gradient(rgba(63, 208, 232, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(63, 208, 232, 0.035) 1px, transparent 1px);
+  background-size: 32px 32px;
+  color: #d8e1f1;
+  font-family: 'Barlow Semi Condensed', 'Segoe UI', system-ui, sans-serif;
+  font-variant-numeric: tabular-nums;
+  -webkit-font-smoothing: antialiased;
+}
+
+*:focus-visible { outline: 2px solid #3fd0e8; outline-offset: 2px; }
+
+@layer components {
+  .panel { @apply border border-line bg-ink-900/95; }
+  .panel-title { @apply text-[13px] font-semibold tracking-wide text-fg; }
+  .panel-head { @apply flex items-center justify-between gap-2 border-b border-line px-3 py-2; }
+  .btn { @apply inline-flex items-center justify-center gap-1.5 border border-line bg-ink-800 px-3 py-1.5 text-[13px] font-medium text-fg transition-colors hover:border-cyanx-dim hover:bg-ink-700 disabled:cursor-not-allowed disabled:opacity-45; }
+  .btn-primary { @apply border-cyanx-dim bg-cyanx/15 text-cyanx hover:bg-cyanx/25; }
+  .btn-danger { @apply border-crit/50 bg-crit/10 text-crit hover:bg-crit/20; }
+  .chip { @apply inline-flex items-center gap-1 border px-1.5 py-0.5 text-[11px] font-semibold leading-none; }
+  .field { @apply w-full border border-line bg-ink-950 px-2 py-1.5 text-[13px] text-fg; }
+  .label { @apply mb-1 block text-[12px] font-medium text-fg-muted; }
+  .th { @apply px-2 py-1.5 text-left text-[12px] font-semibold text-fg-muted; }
+  .td { @apply px-2 py-1.5 text-[13px]; }
+}
+
+/* Leaflet theming */
+.leaflet-container { background: #0a1220; font-family: inherit; }
+.dim-tiles .leaflet-tile-pane { filter: brightness(0.5) saturate(0.55) contrast(1.05); }
+.no-tiles .leaflet-tile-pane { display: none; }
+.leaflet-tooltip { background: #0b1322; color: #d8e1f1; border: 1px solid #243653; border-radius: 0; box-shadow: none; font-size: 12px; }
+.leaflet-tooltip-top:before { border-top-color: #243653; }
+.leaflet-control-attribution { background: rgba(7, 12, 24, 0.8) !important; color: #8193b0 !important; }
+.leaflet-control-attribution a { color: #3fd0e8 !important; }
+.leaflet-control-zoom a { background: #0b1322 !important; color: #d8e1f1 !important; border-color: #243653 !important; }
+
+.route-in { animation: route-in 0.6s ease-out both; }
+@keyframes route-in { from { opacity: 0; } to { opacity: 1; } }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}

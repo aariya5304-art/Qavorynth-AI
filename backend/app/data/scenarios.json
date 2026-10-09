@@ -1,0 +1,27 @@
+{
+  "unsafe_depth_m": 0.3,
+  "restricted_depth_m": 0.1,
+  "scenarios": [
+    {
+      "id": "baseline",
+      "name": "Baseline conditions",
+      "description": "Light rain and a normal river stage. Used as the deterministic reset state.",
+      "rainfall_mm_hr": 8, "rain_trend_mm_hr_per_h": 0, "water_level_m": 0.6,
+      "closed_roads": [], "occupancy": {}, "demo_origin": "N41"
+    },
+    {
+      "id": "heavy-rain",
+      "name": "Heavy rainfall, rising water",
+      "description": "Intense rain that is still increasing and a high river stage. Low-lying roads become unsafe and a shelter is lost to flooding.",
+      "rainfall_mm_hr": 85, "rain_trend_mm_hr_per_h": 6, "water_level_m": 7.5,
+      "closed_roads": [], "occupancy": {"S3": 420, "S4": 190, "S5": 140, "S6": 20}, "demo_origin": "N30"
+    },
+    {
+      "id": "road-closure",
+      "name": "Critical road closure",
+      "description": "Moderate rain with Street E (1-2) closed near the demo origin, forcing a longer route to a different shelter.",
+      "rainfall_mm_hr": 22, "rain_trend_mm_hr_per_h": 0, "water_level_m": 1.5,
+      "closed_roads": ["R021"], "occupancy": {}, "demo_origin": "N41"
+    }
+  ]
+}
