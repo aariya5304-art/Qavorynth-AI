@@ -25,8 +25,16 @@ app = FastAPI(
     description=("Urban flood risk scoring, short-horizon forecasting and dynamic evacuation routing over a "
                  "SYNTHETIC demonstration city. Not for real emergency decisions."),
 )
-app.add_middleware(CORSMiddleware, allow_origins=cors_origins(), allow_origin_regex=cors_origin_regex(),
-                   allow_methods=["*"], allow_headers=["*"])
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "https://qavorynth-ai-zae4-an5ygpz5t-boori1.vercel.app",
+        "http://localhost:5173",
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 _MODEL = WaterLevelModel()                 # trained once, shared (read-only)
 _TEMPLATE = Simulation(model=_MODEL)       # static dataset/config, never mutated
